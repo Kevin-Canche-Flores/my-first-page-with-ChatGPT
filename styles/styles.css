@@ -1,0 +1,65 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+/* Estilo para la barra de navegación */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color:rgb(223, 8, 13);
+  color: rgb(255, 233, 227);
+  height: 5vh;
+  z-index: 100; /* Asegura que esté por encima de otros elementos */
+}
+
+.header-h2 {
+
+  font-size: 3rem;
+  flex-basis: 30%;
+  flex-shrink: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 2;
+  align-items: center;
+  flex-basis: 60%;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:rgb(255, 233, 227);;
+}
+
+nav ul a:hover {
+  color: rgb(74, 198, 112);
+}
+
+/* Estilos para el encabezado "Feliz Navidad" en la página de inicio */
+.inicio {
+  background-image: url('../images/img/christmas-home.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: rgb(2, 12, 45);
+}
