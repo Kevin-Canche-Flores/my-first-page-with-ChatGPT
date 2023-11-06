@@ -57,7 +57,69 @@ nav ul a:hover {
   text-align: center;
   color: white;
   font-size: 3em;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
+
+.header-contador {
+  width: 50%;
+}
+
+.header-contador h1 {
+  font-size: 12rem;
+}
+
+.header-contador h2 {
+  font-size: 5rem;
+}
+
+.contador-detallado {
+  display: flex;
+  flex-direction: column;
+}
+
+.contador-detallado {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-temporizador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.contenedor-temporizador div {
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-around;
+
+  
+  background-color: rgba(2, 12, 45, .5);
+  border-radius: 5px;
+  padding: 3rem;
+  
+}
+
+.temporizador {
+  font-size: 5rem;
+}
+
+.date {
+  font-size: 25px;
+}
+
+
+
+
+
+
 
 /* Estilos para el pie de página */
 footer {
